@@ -17,11 +17,13 @@ By the end of this lab, you will:
   SRT111F2026
   ```
 
-  Each lab will be stored in its own folder within this repository:
-  SRT111F2026
+This repository will contain all of your lab work for the semester.
+As new labs are assigned, you will create folders inside this repository and store your work there.
+``` text
+SRT111F2026
 ├── Lab00
 ├── Lab01
 ├── Lab02
 ├── Lab03
 └── ...
-  
+ ``` 
