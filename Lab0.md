@@ -16,4 +16,12 @@ By the end of this lab, you will:
   ``` YAML
   SRT111F2026
   ```
+
+  Each lab will be stored in its own folder within this repository:
+  SRT111F2026
+├── Lab00
+├── Lab01
+├── Lab02
+├── Lab03
+└── ...
   
