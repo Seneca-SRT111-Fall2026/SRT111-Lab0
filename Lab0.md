@@ -93,7 +93,7 @@ To install the extension:
 - Install the extension published by Microsoft
 - If prompted, restart VS Code
 
-### Step 3: Verify Installation
+### Step 4: Verify Installation
 After installation, create a new Python file named:
 ```text
 test.py
@@ -108,4 +108,24 @@ You should see Python-related features such as:
 - Python language support in the bottom status bar
 - A "Run Python File" option near the top-right corner of the editor
 
-If these features are available, the Python extension has been installed successfully.
+Run the program using the Run Python File button in VS Code.
+Expected output:
+```text
+Hello, SRT111!
+```
+If the program runs successfully, then Python and VS Code are installed successfully.
+
+## Part 2: Access Your Seneca GitHub Account
+Open your web browser and visit: https://github.com/Seneca-Polytechnic
+
+Sign in using your Seneca credentials or SSO.
+
+Your Seneca GitHub account is different from a personal GitHub account that you may have created yourself.
+
+Be sure to sign in using your Seneca-managed GitHub account.
+After signing in, click your profile picture in the top-right corner of GitHub.
+
+Your GitHub username should be displayed.
+```text
+john-smith_seneca
+```
