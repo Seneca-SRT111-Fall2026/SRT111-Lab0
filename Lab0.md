@@ -1,9 +1,10 @@
 # SRT111-Lab0 - Environment Setup and GitHub Repository Configuration
-
+This lab will help you setup the enviroment needed to complete the labs on your personal laptop.
+It is recommended that you bring your own laptop to each class.
 ## Objectives:
 By the end of this lab, you will:
 
-- Install Python, VS Code, and Git.
+- Install Python, VS Code, and Git on your personal laptop.
 - Configure Git with your Seneca information.
 - Create your course GitHub repository.
 - Add your professor as a collaborator.
