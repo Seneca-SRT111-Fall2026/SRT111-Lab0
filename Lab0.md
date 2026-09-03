@@ -202,7 +202,7 @@ Inside your repository:
 ### Part 6: Clone the Repository to Your Computer
 Now that the repository exists on GitHub, create a local copy on your computer.
 - From your GitHub repository page, click the green drop down: `Code`
-- Copy the HTTPS URL: https://github.com/your-seneca-username/SRT111F2026.git
+- Copy the HTTPS URL which may look like this: https://github.com/your-seneca-username/SRT111F2026.git
 - Inside VS Code: open a terminal
 - Navigate to the location where you want to store your course work.
 - Example
