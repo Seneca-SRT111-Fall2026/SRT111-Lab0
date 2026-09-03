@@ -66,6 +66,8 @@ Download and install the version appropriate for your operating system. Use the 
 
 You should see applications such as:
 
+- Anaconda Prompt
+- Jupyter Note
 - JupyterLab
 - Visual Studio Code
 
