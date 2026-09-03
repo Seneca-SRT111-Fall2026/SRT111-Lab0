@@ -1,6 +1,7 @@
 # SRT111-Lab0 - Environment Setup and GitHub Repository Configuration
 This lab will help you setup the enviroment needed to complete the labs on your personal laptop.
 It is recommended that you bring your own laptop to each class.
+
 ## Objectives:
 By the end of this lab, you will:
 
