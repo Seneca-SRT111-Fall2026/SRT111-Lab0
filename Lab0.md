@@ -50,7 +50,7 @@ You only need to complete this setup once.
 
 ### Step 1: Install Anaconda
 
-Anaconda includes
+Anaconda includes:
 - Python
 - JupyterLab
 - VS Code
