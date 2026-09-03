@@ -164,16 +164,18 @@ Git records who makes changes to files. Before using Git, you must configure you
 
 Open a terminal in VS Code and run the following commands:
 ```Python
-git config --global user.name "Your GitHub Username"
+git config --global user.name "Your Username"
 git config --global user.email "your.seneca@email.com"
 ```
 
 Example:
 
 ```Python
-git config --global user.name "john.smith_seneca"
+git config --global user.name "John Smith"
 git config --global user.email "john.smith@myseneca.ca"
 ```
+
+
 
 ## Part 4: Create Your Course Repository
 Throughout the semester, you will store all lab work in a single GitHub repository.
@@ -181,7 +183,7 @@ While signed in to your Seneca GitHub account:
 
 - Click the + button in the upper-right corner.
 - Select New Repository.
-- Enter the repository name:
+- Enter the repository name (EXACTLY AS SHOWN BELOW). If you do not create the repo with this exact name, your work will not be graded. 
 ```text
 SRT111F2026
 ```
@@ -197,27 +199,70 @@ Inside your repository:
 - Click Settings
 - Select Collaborators and Teams from the left menu.
 - Click Add People
-- Search for your professor's GitHub username
+- Search for your professor's GitHub username: "tiayyba-riaz_seneca". If you have a different professor, please add thier username.
 - Select the account and send the invitation.
-  
+After sending the invitation, wait a few minutes and refresh the page to confirm the invitation appears under collaborators.
+
 ## Part 6: Clone the Repository to Your Computer
-Now that the repository exists on GitHub, create a local copy on your computer.
-- From your GitHub repository page, click the green drop down: `Code`
-- Copy the HTTPS URL which may look like this: https://github.com/your-seneca-username/SRT111F2026.git
-- Inside VS Code: open a terminal
-- Navigate to the location where you want to store your course work.
-- Example
-``` text
-cd /users/john/SRT111/
+At this point, your repository exists on GitHub, but there is not yet a copy of it on your laptop. **Cloning** creates a local copy of your GitHub repository on your computer. Throughout the semester, you will work in this local copy using VS Code. When you complete a lab, you will use Git to upload your changes back to GitHub.
+
+**Step 1: Copy Your Repository URL:**
+- Open your SRT111F2026 repository on GitHub
+- Click the green drop down: `Code`.
+- Make sure **HTTPS** is selected.
+- Copy the HTTPS URL which may look like this:
+```text
+https://github.com/your-seneca-username/SRT111F2026.git
 ```
-- run the command:
+**Step 2: Open a Terminal in VS Code:**
+- Inside VS Code: open a new terminal. Select **Terminal → New Terminal** from the menu, or use the shortcut: **Ctrl + `**.
+- A terminal window should appear at the bottom of VS Code.
+
+ **Step 3: Navigate to a Location for Your Course Work:**
+- Choose a location on your computer where you would like to store your SRT111 course files.
+- For example, you may create a folder named:
+``` text
+Users
+└── john
+      └── SRT111
+```
+- Navigate to that folder using the terminal, write the command (the actual command will vary depending on where you created the folder, ask your proffessor if you need help here.)
+```text
+cd Users/john/SRT111
+```
+
+**Step 4: Clone the Repository:**
+Run the following command using the URL you copied from GitHub:
 ```Python
 git clone https://github.com/your-seneca-username/SRT111F2026.git
 ```
-- Move into the repository folder:
+If the command is successful, Git will create a new folder named:
+```
+SRT111F2026
+```
+and download the contents of your GitHub repository into that folder.
+You should see output similar to:
+```text
+Cloning into 'SRT111F2026'...
+remote: Enumerating objects...
+Receiving objects...
+```
+
+**Step 5: Move Into the Repository Folder:**
+- After cloning, change into the repository folder:
 ```
 cd SRT111F2026
 ```
+- Verify your location by running:
+```
+git status
+```
+You should see something similar to:
+```text
+On branch main
+nothing to commit, working tree clean
+```
+**Important:** Throughout the semester, all lab folders (Lab00, Lab01, Lab02, etc.) must be created inside the SRT111F2026 folder. If files are created outside this folder, Git will not track them and they will not be uploaded to GitHub.
 
 ## Part 7: Create Your Lab00 Folder
 Inside your local repository that you just cloned, create a new folder:
