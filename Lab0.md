@@ -27,11 +27,11 @@ By the end of this lab, you will:
   └── ...
   ```
   For each lab, you will:
-  1. Download the starter files provided by your professor.
-  2. Create a new lab folder in your local copy of the repository.
-  3. Complete the lab activities using VS Code.
-  4. Commit your changes using Git.
-  5. Push your work to GitHub.
+  - Download the starter files provided by your professor.
+  - Create a new lab folder in your local copy of the repository.
+  - Complete the lab activities using VS Code.
+  - Commit your changes using Git.
+  - Push your work to GitHub.
   
   By completing this lab, you will set up all the software and accounts required for the remainder of the course.
 
