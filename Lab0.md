@@ -271,4 +271,27 @@ Lab00/
     hello.py
 ```
 
+# Submission Requirements
+To receive credit for Lab00, verify that:
 
+✅ Anaconda is installed
+
+✅ VS Code launches successfully
+
+✅ Git is installed
+
+✅ Git is configured with your Seneca email
+
+✅ Repository named SRT111F2026 exists
+
+✅ Professor has been added as a collaborator
+
+✅ Repository has been cloned to your computer
+
+✅ Lab00 folder exists
+
+✅ hello.py runs successfully
+
+✅ Changes have been committed
+
+✅ Changes have been pushed to GitHub
