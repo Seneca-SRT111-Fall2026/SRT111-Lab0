@@ -126,11 +126,12 @@ Git is a version control system that allows you to:
 - Maintain your course repository throughout the semester
 
 Throughout this course, you will use Git to save and upload your lab work.
+
 **Download Git:** Visit: https://git-scm.com/downloads
 
 Download and install Git for your operating system.
 
-Use the default installation settings
+Use the default installation settings.
 
 **Verify the Git Installation:**
 Inside VS Code, Open a terminal like powershell and run:
