@@ -38,7 +38,7 @@ For each lab, you will:
  
 By completing this lab, you will set up all the software and accounts required for the remainder of the course.
 
-**Important:** You will create **one repository for the entire semester**. Each lab will be stored in its own folder within that repository.
+**Important:** You will create **one repository for the entire semester**. Each lab will be stored in its own folder within that repository. The repository will exist both on GitHub.com and on your computer. Git is used to keep these two copies synchronized.
   
 ---
 
@@ -55,7 +55,7 @@ You only need to complete this setup once.
 
 Anaconda includes:
 - Python
-- JupyterLab
+- Jupyter Lab
 - VS Code
 - Package management tools
 - Common data science libraries
@@ -70,11 +70,12 @@ Download and install the version appropriate for your operating system. Use the 
 You should see applications such as:
 
 - Anaconda Prompt
-- Jupyter Note
+- Jupyter Notebook
 - JupyterLab
 - Visual Studio Code
 
 If Anaconda Navigator opens successfully, your installation is complete.
+If VS Code does not appear in Anaconda Navigator, install VS Code separately from https://code.visualstudio.com/
 
 
 ### Step 2: Launch VS Code
@@ -101,7 +102,7 @@ After installation, create a new Python file named:
 ```text
 test.py
 ```
-Add the following code:
+This file is only used to verify your installation and does not need to be submitted. Add the following code:
 ```Python
 print("Hello, SRT111!")
 ```
@@ -135,7 +136,7 @@ Throughout this course, you will use Git to save and upload your lab work.
 
 **Verify the Git Installation:**
 Inside VS Code, Open a terminal like powershell and run:
-```python
+```text
 git --version
 ```
 Example output:
@@ -151,9 +152,8 @@ Open your web browser and visit: https://github.com/Seneca-Polytechnic
 
 Sign in using your Seneca credentials or SSO.
 
-Your Seneca GitHub account is different from a personal GitHub account that you may have created yourself.
-
-Be sure to sign in using your Seneca-managed GitHub account.
+Your Seneca GitHub account is different from a personal GitHub account that you may have created yourself. 
+Be sure to sign in using your Seneca-managed GitHub account. If you are already signed into a personal GitHub account, sign out before signing in with your Seneca account.
 After signing in, click your profile picture in the top-right corner of GitHub. Your GitHub username should be displayed which will look like this:
 ```text
 john-smith_seneca
