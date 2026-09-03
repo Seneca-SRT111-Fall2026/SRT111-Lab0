@@ -240,8 +240,8 @@ hello.py
 print("Hello, SRT111!")
 print("My GitHub setup is working.")
 ```
-- Run the program inside VS Code to make sure that you get the expected outptu.
-- 
+- Run the program inside VS Code to make sure that you get the expected output.
+
 ### Part 9: Commit Your Work
 Git requires changes to be committed before they can be uploaded.
 - Run the following command to **view modified files**:
