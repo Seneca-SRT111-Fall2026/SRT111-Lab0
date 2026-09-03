@@ -59,6 +59,7 @@ Anaconda includes
 - Many other tools... (you don't need them in this course though)
 
 Visit: https://www.anaconda.com/download
+
 Download and install the version appropriate for your operating system. Use the default installation settings unless instructed otherwise.
 
 **Verify the Installation**: After installation, launch **Anaconda Navigator**. Anaconda Navigator is a graphical application that allows you to launch the tools included with Anaconda without using the command line.
