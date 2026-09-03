@@ -56,7 +56,7 @@ Anaconda includes:
 - VS Code
 - Package management tools
 - Common data science libraries
-- Many other tools... (you don't need them in this course though)
+- Many other tools... 
 
 Visit: https://www.anaconda.com/download
 
