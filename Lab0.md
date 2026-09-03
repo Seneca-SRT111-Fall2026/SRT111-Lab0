@@ -35,7 +35,7 @@ For each lab, you will:
  
 By completing this lab, you will set up all the software and accounts required for the remainder of the course.
 
-**Important** You will create **one repository for the entire semester**. Each lab will be stored in its own folder within that repository.
+**Important:** You will create **one repository for the entire semester**. Each lab will be stored in its own folder within that repository.
   
 ---
 
