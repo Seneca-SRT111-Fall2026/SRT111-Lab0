@@ -43,8 +43,8 @@ By completing this lab, you will set up all the software and accounts required f
 
 Before you can begin working on course labs, you must install the software used throughout the semester.
 We will use the following tools:
-- Anaconda - Anaconda provides everything needed for this course in a single installation. Rather than installing Python, Jupyter, and other tools separately, Anaconda bundles them together and makes them easier to manage.
-- Git - Used to save versions of your work and upload your files to GitHub
+- **Anaconda** - Anaconda provides everything needed for this course in a single installation. Rather than installing Python, Jupyter, and other tools separately, Anaconda bundles them together and makes them easier to manage.
+- **Git** - Used to save versions of your work and upload your files to GitHub
   
 You only need to complete this setup once.
 
