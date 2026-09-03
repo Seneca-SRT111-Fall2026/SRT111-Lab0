@@ -11,34 +11,33 @@ By the end of this lab, you will:
 - Create and run your first Python program.
 - Commit and push your work to GitHub.
 
-  ## Introduction
-  Throughout this course, you will maintain one GitHub repository named:
-  ``` YAML
-  SRT111F2026
-  ```
-  This repository will contain all of your lab work for the semester.
-  As new labs are assigned, you will create folders inside this repository and store your work there.
-  ``` text
-  SRT111F2026
-  ├── Lab00
-  ├── Lab01
-  ├── Lab02
-  ├── Lab03
-  └── ...
-  ```
-  For each lab, you will:
-  - Download the starter files provided by your professor.
-  - Create a new lab folder in your local copy of the repository.
-  - Complete the lab activities using VS Code.
-  - Commit your changes using Git.
-  - Push your work to GitHub.
-  
-  By completing this lab, you will set up all the software and accounts required for the remainder of the course.
+## Introduction
+Throughout this course, you will maintain one GitHub repository named:
+``` YAML
+SRT111F2026
+```
+This repository will contain all of your lab work for the semester.
+As new labs are assigned, you will create folders inside this repository and store your work there.
+``` text
+SRT111F2026
+├── Lab00
+├── Lab01
+├── Lab02
+├── Lab03
+└── ...
+```
+For each lab, you will:
+- Download the starter files provided by your professor.
+- Create a new lab folder in your local copy of the repository.
+- Complete the lab activities using VS Code.
+- Commit your changes using Git.
+- Push your work to GitHub.
+ 
+By completing this lab, you will set up all the software and accounts required for the remainder of the course.
 
-   **Important** You will create **one repository for the entire semester**. Each lab will be stored in its own folder within that
-  repository.
+**Important** You will create **one repository for the entire semester**. Each lab will be stored in its own folder within that repository.
   
-  ---
+---
 
 ## Part 1: Install Required Software
 
