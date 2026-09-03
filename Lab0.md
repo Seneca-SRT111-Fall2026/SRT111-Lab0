@@ -74,10 +74,9 @@ You should see applications such as:
 If Anaconda Navigator opens successfully, your installation is complete.
 
 
-### Step 2: Launch Visual Studio Code
+### Step 2: Launch VS Code
 
-Visual Studio Code (VS Code) is the editor we will use throughout the semester.
-Open Anaconda Navigator and click Launch under Visual Studio Code.
+VS Code is the editor we will use throughout the semester for labs. Open Anaconda Navigator and click Launch under VS Code.
 
 ### Step 3: Install the Python Extension
 Although Anaconda installs Python and VS Code, the VS Code does not automatically include all of the tools needed to work effectively with Python. The Python extension adds Python-specific features to VS Code, such as:
