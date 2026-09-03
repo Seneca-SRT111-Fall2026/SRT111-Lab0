@@ -200,7 +200,7 @@ Inside your repository:
 - Search for your professor's GitHub username
 - Select the account and send the invitation.
   
-### Part 6: Clone the Repository to Your Computer
+## Part 6: Clone the Repository to Your Computer
 Now that the repository exists on GitHub, create a local copy on your computer.
 - From your GitHub repository page, click the green drop down: `Code`
 - Copy the HTTPS URL which may look like this: https://github.com/your-seneca-username/SRT111F2026.git
@@ -219,7 +219,7 @@ git clone https://github.com/your-seneca-username/SRT111F2026.git
 cd SRT111F2026
 ```
 
-### Part 7: Create Your Lab00 Folder
+## Part 7: Create Your Lab00 Folder
 Inside your local repository that you just cloned, create a new folder:
 ```
 Lab00
@@ -231,7 +231,7 @@ SRT111F2026
 └── Lab00
 ```
 
-### Part 8: Create Your First Python Program
+## Part 8: Create Your First Python Program
 - Inside the Lab00 folder, create a file named:
 ```Python
 hello.py
@@ -243,7 +243,7 @@ print("My GitHub setup is working.")
 ```
 - Run the program inside VS Code to make sure that you get the expected output.
 
-### Part 9: Commit Your Work
+## Part 9: Commit Your Work
 Git requires changes to be committed before they can be uploaded.
 - Run the following command to **view modified files**:
 ```
