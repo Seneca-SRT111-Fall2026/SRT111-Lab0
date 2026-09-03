@@ -1,6 +1,7 @@
 # SRT111-Lab0 - Environment Setup and GitHub Repository Configuration
 This lab will help you setup the enviroment needed to complete the labs on your personal laptop.
 It is recommended that you bring your own laptop to each class.
+This lab must be completed before the first class of week 2.
 
 ## Objectives:
 By the end of this lab, you will:
@@ -273,25 +274,14 @@ Lab00/
 
 # Submission Requirements
 To receive credit for Lab00, verify that:
-
-✅ Anaconda is installed
-
-✅ VS Code launches successfully
-
-✅ Git is installed
-
-✅ Git is configured with your Seneca email
-
-✅ Repository named SRT111F2026 exists
-
-✅ Professor has been added as a collaborator
-
-✅ Repository has been cloned to your computer
-
-✅ Lab00 folder exists
-
-✅ hello.py runs successfully
-
-✅ Changes have been committed
-
-✅ Changes have been pushed to GitHub
+- Anaconda is installed
+- VS Code launches successfully
+- Git is installed
+- Git is configured with your Seneca email
+- Repository named SRT111F2026 exists
+- Professor has been added as a collaborator
+- Repository has been cloned to your computer
+- Lab00 folder exists
+- hello.py runs successfully
+- Changes have been committed
+- Changes have been pushed to GitHub
