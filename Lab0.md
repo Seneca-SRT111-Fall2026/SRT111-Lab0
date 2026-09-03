@@ -123,9 +123,7 @@ Sign in using your Seneca credentials or SSO.
 Your Seneca GitHub account is different from a personal GitHub account that you may have created yourself.
 
 Be sure to sign in using your Seneca-managed GitHub account.
-After signing in, click your profile picture in the top-right corner of GitHub.
-
-Your GitHub username should be displayed.
+After signing in, click your profile picture in the top-right corner of GitHub. Your GitHub username should be displayed which will look like this:
 ```text
 john-smith_seneca
 ```
