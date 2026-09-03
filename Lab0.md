@@ -115,6 +115,33 @@ Hello, SRT111!
 ```
 If the program runs successfully, then Python and VS Code are installed successfully.
 
+### Step 5: Install Git
+Git is a version control system that allows you to:
+
+- Save versions of your work
+- Track changes to your files
+- Upload your work to GitHub
+- Maintain your course repository throughout the semester
+Throughout this course, you will use Git to save and upload your lab work.
+**Download Git:** Visit: https://git-scm.com/downloads
+
+Download and install Git for your operating system.
+
+Use the default installation settings
+
+**Verify the Git Installation:**
+Inside VS Code, Open a terminal like powershell and run:
+```python
+git --version
+```
+Example output:
+```text
+git version 2.51.0
+```
+Your version number may be different.
+If Git displays a version number, the installation was successful.
+
+
 ## Part 2: Access Your Seneca GitHub Account
 Open your web browser and visit: https://github.com/Seneca-Polytechnic
 
@@ -127,3 +154,118 @@ After signing in, click your profile picture in the top-right corner of GitHub. 
 ```text
 john-smith_seneca
 ```
+
+## Part 3: Configure Git
+Git records who makes changes to files. Before using Git, you must configure your name and email address.
+
+Open a terminal in VS Code and run the following commands:
+```Python
+git config --global user.name "Your GitHub Username"
+git config --global user.email "your.seneca@email.com"
+```
+
+Example:
+
+```Python
+git config --global user.name "john.smith_seneca"
+git config --global user.email "john.smith@myseneca.ca"
+```
+
+## Part 4: Create Your Course Repository
+Throughout the semester, you will store all lab work in a single GitHub repository.
+While signed in to your Seneca GitHub account:
+
+- Click the + button in the upper-right corner.
+- Select New Repository.
+- Enter the repository name:
+```text
+SRT111F2026
+```
+- Set the repository visibility to **Private**.
+- Check: Add a README file
+- Click Create Repository
+- Your repository URL will look similar to: https://github.com/your-seneca-username/SRT111F2026
+
+## Part 5: Add Your Professor as a Collaborator
+Your professor will require access to your repository to distribute starter files and review your work.
+Inside your repository:
+
+- Click Settings
+- Select Collaborators and Teams from the left menu.
+- Click Add People
+- Search for your professor's GitHub username
+- Select the account and send the invitation.
+  
+### Part 6: Clone the Repository to Your Computer
+Now that the repository exists on GitHub, create a local copy on your computer.
+- From your GitHub repository page, click the green drop down: `Code`
+- Copy the HTTPS URL: https://github.com/your-seneca-username/SRT111F2026.git
+- Inside VS Code: open a terminal
+- Navigate to the location where you want to store your course work.
+- Example
+``` text
+cd /users/john/SRT111/
+```
+- run the command:
+```Python
+git clone https://github.com/your-seneca-username/SRT111F2026.git
+```
+- Move into the repository folder:
+```
+cd SRT111F2026
+```
+
+### Part 7: Create Your Lab00 Folder
+Inside your local repository that you just cloned, create a new folder:
+```
+Lab00
+```
+Your folder structure should look like:
+```text
+SRT111F2026
+├── README.md
+└── Lab00
+```
+
+### Part 8: Create Your First Python Program
+- Inside the Lab00 folder, create a file named:
+```Python
+hello.py
+```
+- Add the following code:
+```Python
+print("Hello, SRT111!")
+print("My GitHub setup is working.")
+```
+- Run the program inside VS Code to make sure that you get the expected outptu.
+- 
+### Part 9: Commit Your Work
+Git requires changes to be committed before they can be uploaded.
+- Run the following command to **view modified files**:
+```
+git status
+```
+- You should see the following listed as untracked file. This is becasue yoru local repository contains this folder and file but this is not yet available in the GitHub.com.
+```
+Lab00/hello.py
+```
+- **Stage the files**
+```
+git add .
+```
+- Create a commit
+```
+git commit -m "Complete Lab00 setup"
+```
+- Upload your changes to GitHub.
+```
+git push
+```
+- After the push completes successfully, refresh your GitHub repository page.You should see:
+``` text
+README.md
+Lab00/
+    hello.py
+```
+
+
